@@ -1,0 +1,1 @@
+# PhotoSwipeGenerator.pl
