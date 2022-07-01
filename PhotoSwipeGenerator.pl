@@ -303,7 +303,7 @@ foreach ( @picslist ) {
   my $modulo = $counter % $rows;
 	
 	#
-  push ( $rowfiles[$modulo], $picHTML );
+  push ( @{ $rowfiles[$modulo] }, $picHTML );
 
   # and a JavaScript array for PhotoSwipe
   if ( $counter != 0 ) { print ARRAY ",\n"; }
